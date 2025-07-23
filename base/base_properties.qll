@@ -25,7 +25,7 @@ module GenericProperty<genericPropertyKindPred/3 kindPredicate, genericPropertyP
     {
         private final PropertyKind kind;
         Property(){
-            propPredicate(this, kind.getName())
+            propPredicate(kind.getName(), this)
         }
         string getValue(){result=this}
         PropertyKind getKind(){result = kind}

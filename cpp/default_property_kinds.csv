@@ -1,0 +1,3 @@
+"ContainingFile", "Filename of file containing this object", true
+"ContainingPath", "Path of file containing this object", true
+"ContainingDir", "Directory containing this object", true

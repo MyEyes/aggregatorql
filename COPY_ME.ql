@@ -12,5 +12,5 @@ query predicate subject_properties(QueryBase::InternalModel::Subject subject, Qu
 query predicate subject_tags(QueryBase::InternalModel::Subject subject, QueryBase::InternalModel::Tag tag){QueryBase::subject_tags(subject, tag)}
 query predicate subject_parents(QueryBase::InternalModel::Subject subject, QueryBase::InternalModel::Subject parent){QueryBase::subject_parents(subject, parent)}
 query predicate results(QueryBase::InternalModel::Result aresult, QueryBase::InternalModel::Subject subject, string title, string description, string hash_val){QueryBase::results(aresult, subject, title, description, hash_val)}
-query predicate result_properties(QueryBase::InternalModel::Result aresult, QueryBase::InternalModel::Property property){QueryBase::result_properties(aresult, property)}
-query predicate result_tags(QueryBase::InternalModel::Result aresult, QueryBase::InternalModel::Tag tag){QueryBase::result_tags(aresult, tag)}
+query predicate result_properties(QueryBase::InternalModel::Result aresult, QueryBase::InternalModel::Property property){QueryBase::results_properties(aresult, property)}
+query predicate result_tags(QueryBase::InternalModel::Result aresult, QueryBase::InternalModel::Tag tag){QueryBase::results_tags(aresult, tag)}
